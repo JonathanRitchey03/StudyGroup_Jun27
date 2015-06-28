@@ -18,6 +18,9 @@ public class Main {
         List testList2 = new List("3$B").append("C");
         testList2.print();
         testList2.rleDecodeList().print();
+        List testList3 = new List("B").append("2$C").append("3$Z").append("R");
+        testList3.print();
+        testList3.rleDecodeList().print();
     }
     static void medSectionA() {
         printSection("Med-Section A");
